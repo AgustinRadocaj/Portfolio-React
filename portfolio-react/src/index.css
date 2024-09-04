@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap');
+
+:root {
+    --blue: #3498db;
+    --green: #2ecc71;
+    --red: #FF4141;
+    --purple: #DC3895;
+    --orange: #FF9F1C;
+  }
+
 body {
+    font-family: 'Kanit', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -6,5 +17,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #131417;
+    color: white;
     width: 100vw;
 }

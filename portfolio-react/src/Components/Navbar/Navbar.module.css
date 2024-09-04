@@ -27,7 +27,7 @@
 
 .navButton:hover {
     cursor: pointer;
-    background-color: #FF9741;
+    background-color: var(--orange);
     .navText {
         color: white;
     }
@@ -49,9 +49,9 @@
 }
 
 .navButton:first-child:hover {
-    background-color: #FF4141;
+    background-color: var(--red);
 }
 
 .navButton:last-child:hover {
-    background-color: #DC3895;
+    background-color: var(--purple);
 }
