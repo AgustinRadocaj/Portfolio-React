@@ -1,8 +1,14 @@
+.title {
+    color: var(--green);
+    font-size: 40px;
+    margin-top: 50px;
+}
 .container {
     display: flex;
     flex-direction: row;
-    background-color: white;
     width: 850px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .info {
@@ -11,10 +17,22 @@
 
 .logo {
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
+    width: 240px;
+    height: auto;
+}
+
+.link {
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
