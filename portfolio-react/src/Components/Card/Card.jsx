@@ -8,7 +8,7 @@ export const Card = ({name, img, onClick}) => {
         <p class={styles.title}>{name}</p>
         <img class={styles.img} src={img} alt="project-photo" />
       </div>
-      <button class={styles.button}>More info</button>
+      <button class={styles.button}>Mas Info</button>
     </div>
   )
 }

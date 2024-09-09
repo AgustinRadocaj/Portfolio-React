@@ -3,7 +3,8 @@
     flex-direction: row;
     max-width: 850px;
     height: 350px;
-    margin-top: 85px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 .name {
@@ -23,10 +24,7 @@
 .img {
     width: 220px;
     height: 220px;
-    object-fit: cover;
-    border-radius: 50px;
-    margin-bottom: 20px;
-    border: 2px solid white;
+    object-fit: cover; 
 }
 
 .info {

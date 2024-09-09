@@ -2,6 +2,8 @@ import React, {useState, useRef} from 'react'
 import { Card } from '../Card/Card'
 import { Project } from '../Project/Project'
 import styles from './Display.module.css'
+import stayFyLogo from '../../assets/STAYFY.png'
+import worldpediaLogo from '../../assets/worldpedia.png'
 
 export const Display = () => {
 
@@ -18,11 +20,11 @@ export const Display = () => {
 
   return (
     <>
-    <h1 className={styles.title} onClick={()=>{handleProjectChange(1)}}>Proyectos</h1>
+    <h1 className={styles.title}>Proyectos</h1>
     <div className={styles.container}>
       <div className={styles.cardsContainer}>
-        <Card name="StayFi" img="https://i.pravatar.cc/300" onClick={()=>{handleProjectChange(1)}}/>
-        <Card name="Worldpedia" img="https://i.pravatar.cc/320" onClick={()=>handleProjectChange(2)}/>
+        <Card name="StayFy" img={stayFyLogo} onClick={()=>{handleProjectChange(1)}}/>
+        <Card name="Worldpedia" img={worldpediaLogo} onClick={()=>handleProjectChange(2)}/>
       </div>
       <div ref={projectRef}>
         <Project projectId={selectedProject}/> 

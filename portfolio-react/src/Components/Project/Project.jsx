@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Project.module.css'
-import placeholder from '../../assets/placeholder.jpg'
+import StayFyLogo from '../../assets/STAYFY.png'
+import worldpediaLogo from '../../assets/worldpedia.png'
 
 export const Project = ({projectId}) => {
 
@@ -8,6 +9,7 @@ export const Project = ({projectId}) => {
     {
       id: 1,
       title: "Task Manager",
+      img: StayFyLogo,
       description: "A web application built with React and Node.js that allows users to manage tasks, track progress, and collaborate with team members in real-time.",
       stack: "React - Node",
       projectLink: "https://example.com/project1",
@@ -15,7 +17,8 @@ export const Project = ({projectId}) => {
     },
     {
       id: 2,
-      title: "E-commerce Platform",
+      title: "Worldpedia",
+      img: worldpediaLogo,
       description: "A scalable e-commerce platform for managing products, processing payments, and tracking orders.",
       stack: "Next.js - Express",
       projectLink: "https://example.com/project2",
@@ -30,7 +33,7 @@ export const Project = ({projectId}) => {
     <div className={styles.container}>
         <div className={styles.name}>
             <h3 className={styles.title}>{project.title}</h3>
-            <img className={styles.img} src={placeholder} alt="placeholder" />
+            <img className={styles.img} src={project.img} alt="project-image" />
         </div>
         <div className={styles.info}>
             <p className={styles.description}>
