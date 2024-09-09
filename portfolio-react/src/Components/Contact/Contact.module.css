@@ -1,10 +1,11 @@
 .container {
     width: 880px;
     text-align: center;
+    margin: 90px 0px;
 }
 
 .title {
-    color: white;
+    color: var(--purple);
     font-size: 40px;
     margin-top: 50px;
 }
@@ -28,9 +29,57 @@
     transition: 0.3s;
 }
 
+.icon {
+    width: 90px;
+    height: 90px;
+}
+
 .button:hover {
     cursor: pointer;
-    background-color: white;
     color: black;
 }
 
+.button:first-child:hover {
+    background-color: var(--green);
+    animation: slide-left 0.5s;
+}
+
+.buttonContainer button:nth-child(2):hover {
+    background-color: var(--red);
+    animation: slide-right 0.5s;
+}
+
+.buttonContainer button:nth-child(3):hover {
+    background-color: var(--blue);
+    animation: slide-left 0.5s;
+}
+
+.button:last-child:hover {
+    background-color: var(--orange);
+    animation: slide-right 0.5s;
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(15px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-15px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

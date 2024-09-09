@@ -1,12 +1,14 @@
 import React from 'react'
 import styles from './Card.module.css'
-import placeholder from '../../assets/placeholder.jpg'
 
 export const Card = ({name, img}) => {
   return (
-    <div className={styles.container}>
-        <h1>{name}</h1>
-        <img src={img} alt="project-logo" />
+    <div class={styles.card}>
+      <div class={styles.details}>
+        <p class={styles.title}>{name}</p>
+        <img class={styles.img} src={img} alt="project-photo" />
+      </div>
+      <button class={styles.button}>More info</button>
     </div>
   )
 }

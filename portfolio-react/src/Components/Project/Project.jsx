@@ -16,8 +16,8 @@ export const Project = () => {
             </p>
             <div>Stack: React - Node</div>
             <div className={styles.links}>
-                <a href="">Link proyecto</a>
-                <a href="">Link Repo</a>
+                <a  className={styles.link} href="">Link proyecto</a>
+                <a  className={styles.link} href="">Link Repo</a>
             </div>   
         </div>
     </div>
