@@ -2,7 +2,7 @@
     width: 175px;
     height: 225px;
     border-radius: 20px;
-    background: #f5f5f5;
+    background-color: rgba(255, 255, 255, 0.1);
     position: relative;
     padding: 1.8rem;
     border: 2px solid #c3c6ce;
@@ -11,7 +11,7 @@
    }
    
    .details {
-    color: black;
+    color: white;
     height: 100%;
     gap: .3em;
     display: grid;
@@ -30,7 +30,7 @@
     width: 60%;
     border-radius: 1rem;
     border: none;
-    background-color: #008bf8;
+    background-color: var(--green);
     color: #fff;
     font-size: 1rem;
     font-family: inherit;
@@ -48,11 +48,13 @@
    }
    
    .card:hover {
-    border-color: #008bf8;
+    border-color: var(--green);
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
    }
    
    .card:hover .button {
     transform: translate(-50%, 50%);
     opacity: 1;
+    cursor: pointer;
    }

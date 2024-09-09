@@ -1,13 +1,12 @@
 .title {
-    color: var(--green);
+    color: var(--red);
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 .container {
     display: flex;
     flex-direction: row;
     width: 850px;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 
