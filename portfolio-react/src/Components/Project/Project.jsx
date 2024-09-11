@@ -23,7 +23,7 @@ export const Project = ({projectId}) => {
       description: "Aplicacion web para acceder a informacion de paises de todo el mundo. La aplicación permite a los usuarios explorar, filtrar y obtener detalles de cada pais.",
       features: "Filtros por categoria y autor - Busqueda por nombre - Modo dark - Diseño responsive",
       stack: "Next.js - Tailwind - Vercel",
-      projectLink: "https://whereintheworld-pi.vercel.app/",
+      projectLink: "https://worldpedia-next.vercel.app/",
       repoLink: "https://github.com/AgustinRadocaj/CountriesApp"
     },
 
