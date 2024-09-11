@@ -12,9 +12,9 @@ function App() {
     <>
       <Navbar/>
       <Info/>
-      <Experience/>
-      <Display/>
-      <Contact/>
+      <div id='experience'><Experience/></div>
+      <div id='display'><Display/></div>
+      <div id='contact'><Contact/></div>     
     </>
   )
 }
