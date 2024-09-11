@@ -7,7 +7,7 @@ export const Info = () => {
   return (
     <div className={styles.container}>
         <div className={styles.title}>
-            <img src={pic} alt="profile" />
+            <img src={pic} alt="profile"/>
             <h1>Agustin Radocaj</h1>
             <h3 className={styles.job}>Full Stack Developer</h3>
         </div>

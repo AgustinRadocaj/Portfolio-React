@@ -8,21 +8,23 @@ export const Project = ({projectId}) => {
   const projectsData = [
     {
       id: 1,
-      title: "Task Manager",
+      title: "StayFy",
       img: StayFyLogo,
-      description: "A web application built with React and Node.js that allows users to manage tasks, track progress, and collaborate with team members in real-time.",
-      stack: "React - Node",
-      projectLink: "https://example.com/project1",
-      repoLink: "https://github.com/example/project1"
+      description: 'Tienda online de libros con un diseño moderno y funcional. La aplicación permite a los usuarios explorar, filtrar y comprar productos mediante una pasarela de pagos segura.',
+      features: "Carrito de compras persistente - Pasarela de pagos - Filtros por categoria y autor - Panel de administracion - Login con google - Modo dark",
+      stack: "React - Tailwind - Node - PostgreSQL - Vercel - GoogleAuth - Mercado Pago",
+      projectLink: "https://stayfy-mu.vercel.app/",
+      repoLink: "https://github.com/AgustinRadocaj/StyfyBack"
     },
     {
       id: 2,
       title: "Worldpedia",
       img: worldpediaLogo,
-      description: "A scalable e-commerce platform for managing products, processing payments, and tracking orders.",
-      stack: "Next.js - Express",
-      projectLink: "https://example.com/project2",
-      repoLink: "https://github.com/example/project2"
+      description: "Aplicacion web para acceder a informacion de paises de todo el mundo. La aplicación permite a los usuarios explorar, filtrar y obtener detalles de cada pais.",
+      features: "Filtros por categoria y autor - Busqueda por nombre - Modo dark - Diseño responsive",
+      stack: "Next.js - Tailwind - Vercel",
+      projectLink: "https://whereintheworld-pi.vercel.app/",
+      repoLink: "https://github.com/AgustinRadocaj/CountriesApp"
     },
 
   ];
@@ -39,10 +41,13 @@ export const Project = ({projectId}) => {
             <p className={styles.description}>
                 {project.description}
             </p>
-            <div>Stack: {project.stack}</div>
+            <div className={styles.features}>
+            <span className={styles.span}>Caracteristicas destacadas: </span>{project.features}
+            </div>
+            <div className={styles.stack}><span className={styles.span}>Stack:</span> {project.stack}</div>
             <div className={styles.links}>
-                <a className={styles.link} href={project.projectLink}>Link proyecto</a>
-                <a className={styles.link} href={project.repoLink}>Link Repo</a>
+                <a className={styles.link} href={project.projectLink} target='_blank'>Link proyecto</a>
+                <a className={styles.link} href={project.repoLink} target='_blank'>Link Repo</a>
             </div>   
         </div>
     </div>
