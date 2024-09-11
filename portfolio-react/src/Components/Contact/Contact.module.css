@@ -18,15 +18,16 @@
     grid-template-rows: 1fr 1fr;
 }
 
-.button {
+.link {
     background-color: transparent;
     border: none;
     color: white;
-    padding: 10px;
-    font-size: 16px;
     width: 100%;
     height: 100%;
     transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon {
@@ -34,27 +35,27 @@
     height: 90px;
 }
 
-.button:hover {
+.link:hover {
     cursor: pointer;
     color: black;
 }
 
-.button:first-child:hover {
+.link:first-child:hover {
     background-color: var(--green);
     animation: slide-left 0.5s;
 }
 
-.buttonContainer button:nth-child(2):hover {
+.buttonContainer a:nth-child(2):hover {
     background-color: var(--red);
     animation: slide-right 0.5s;
 }
 
-.buttonContainer button:nth-child(3):hover {
+.buttonContainer a:nth-child(3):hover {
     background-color: var(--blue);
     animation: slide-left 0.5s;
 }
 
-.button:last-child:hover {
+.link:last-child:hover {
     background-color: var(--orange);
     animation: slide-right 0.5s;
 }
