@@ -11,7 +11,7 @@ export const Project = ({projectId}) => {
       title: "StayFy",
       img: StayFyLogo,
       description: 'Tienda online de libros con un diseño moderno y funcional. La aplicación permite a los usuarios explorar, filtrar y comprar productos mediante una pasarela de pagos segura.',
-      features: "Carrito de compras persistente - Pasarela de pagos - Filtros por categoria y autor - Panel de administracion - Login con google - Modo dark",
+      features: "Carrito de compras persistente - Pasarela de pagos - Filtros por categoria y autor - Panel de administracion - Login con google - Dark Mode - Responsive design",
       stack: "React - Tailwind - Node - PostgreSQL - Vercel - GoogleAuth - Mercado Pago",
       projectLink: "https://stayfy-mu.vercel.app/",
       repoLink: "https://github.com/AgustinRadocaj/StyfyBack"
@@ -21,8 +21,8 @@ export const Project = ({projectId}) => {
       title: "Worldpedia",
       img: worldpediaLogo,
       description: "Aplicacion web para acceder a informacion de paises de todo el mundo. La aplicación permite a los usuarios explorar, filtrar y obtener detalles de cada pais.",
-      features: "Filtros por categoria y autor - Busqueda por nombre - Modo dark - Diseño responsive",
-      stack: "Next.js - Tailwind - Vercel",
+      features: "Filtros por region y poblacion - Busqueda por nombre - Testing unitario con Cypress",
+      stack: "Next.js - Tailwind - Cypress - Vercel",
       projectLink: "https://worldpedia-next.vercel.app/",
       repoLink: "https://github.com/AgustinRadocaj/CountriesApp"
     },

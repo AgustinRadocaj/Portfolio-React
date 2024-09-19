@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../Info/Info.module.css'
 import pic from '../../assets/Profile.jpg'
-import cv from  '../../assets/AgustinRadocaj_FullStack.pdf'
+import cv from  '../../assets/AgustinRadocaj_DesarrolladorFullStack.pdf'
 
 export const Info = () => {
   return (
