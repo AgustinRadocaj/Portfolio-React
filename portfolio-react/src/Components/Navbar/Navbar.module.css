@@ -46,7 +46,7 @@
     border-bottom-left-radius: 15px;
 }
 
-.navButton:last-child {
+.navButton:nth-child(3) {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -55,6 +55,6 @@
     background-color: var(--red);
 }
 
-.navButton:last-child:hover {
+.navButton:nth-child(3):hover {
     background-color: var(--purple);
 }
