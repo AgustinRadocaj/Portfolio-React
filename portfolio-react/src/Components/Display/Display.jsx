@@ -4,9 +4,12 @@ import { Project } from '../Project/Project'
 import styles from './Display.module.css'
 import stayFyLogo from '../../assets/STAYFY.png'
 import worldpediaLogo from '../../assets/worldpedia.png'
+import { useTranslation } from 'react-i18next'
 
 export const Display = () => {
 
+  const {t} = useTranslation()
+  
   const [selectedProject, setSelectedProject] = useState(1)
   const projectRef = useRef(null)
 
@@ -20,7 +23,7 @@ export const Display = () => {
 
   return (
     <>
-    <h1 className={styles.title}>Proyectos</h1>
+    <h1 className={styles.title}>{t('displayTitle')}</h1>
     <div className={styles.container}>
       <div className={styles.cardsContainer}>
         <Card name="StayFy" img={stayFyLogo} onClick={()=>{handleProjectChange(1)}}/>
