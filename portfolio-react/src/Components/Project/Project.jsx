@@ -2,16 +2,19 @@ import React from 'react'
 import styles from './Project.module.css'
 import StayFyLogo from '../../assets/STAYFY.png'
 import worldpediaLogo from '../../assets/worldpedia.png'
+import { useTranslation } from 'react-i18next'
 
 export const Project = ({projectId}) => {
+
+  const {t} = useTranslation()
 
   const projectsData = [
     {
       id: 1,
       title: "StayFy",
       img: StayFyLogo,
-      description: 'Tienda online de libros con un diseño moderno y funcional. La aplicación permite a los usuarios explorar, filtrar y comprar productos mediante una pasarela de pagos segura.',
-      features: "Carrito de compras persistente - Pasarela de pagos - Filtros por categoria y autor - Panel de administracion - Login con google - Dark Mode - Responsive design",
+      description: t("description1"),
+      features: t("features1"),
       stack: "React - Tailwind - Node - PostgreSQL - Vercel - GoogleAuth - Mercado Pago",
       projectLink: "https://stayfy-mu.vercel.app/",
       repoLink: "https://github.com/AgustinRadocaj/StyfyBack"
@@ -20,8 +23,8 @@ export const Project = ({projectId}) => {
       id: 2,
       title: "Worldpedia",
       img: worldpediaLogo,
-      description: "Aplicacion web para acceder a informacion de paises de todo el mundo. La aplicación permite a los usuarios explorar, filtrar y obtener detalles de cada pais.",
-      features: "Filtros por region y poblacion - Busqueda por nombre - Testing unitario con Cypress",
+      description: t("description2"),
+      features: t("features2"),
       stack: "Next.js - Tailwind - Cypress - Vercel",
       projectLink: "https://worldpedia-next.vercel.app/",
       repoLink: "https://github.com/AgustinRadocaj/CountriesApp"
@@ -42,11 +45,11 @@ export const Project = ({projectId}) => {
                 {project.description}
             </p>
             <div className={styles.features}>
-            <span className={styles.span}>Caracteristicas destacadas: </span>{project.features}
+            <span className={styles.span}>{t('features')}: </span>{project.features}
             </div>
             <div className={styles.stack}><span className={styles.span}>Stack:</span> {project.stack}</div>
             <div className={styles.links}>
-                <a className={styles.link} href={project.projectLink} target='_blank'>Link proyecto</a>
+                <a className={styles.link} href={project.projectLink} target='_blank'>{t('projectLink')}</a>
                 <a className={styles.link} href={project.repoLink} target='_blank'>Link Repo</a>
             </div>   
         </div>

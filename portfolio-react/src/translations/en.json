@@ -12,6 +12,13 @@
     "CV": "Download CV",
     "experienciaTitle": "Experiencie",
     "job": "Fullstack Developer",
-    "jobDescription": "Design and development of web applications for the legal sector in internal company projects and client projects. Management of databases in PostgreSQL and integration of the company's social media APIs, using tools such as React, Node, and Bubble.io."
-
+    "jobDescription": "Design and development of web applications for the legal sector in internal company projects and client projects. Management of databases in PostgreSQL and integration of the company's social media APIs, using tools such as React, Node, and Bubble.io.",
+    "stack": "Stack",
+    "infoButton": "More Info",
+    "description1": "Online bookstore with a modern and functional design. The application allows users to explore, filter, and purchase products through a secure payment gateway.",
+    "features1": "Persistent shopping cart - Payment gateway - Filters by category and author - Admin panel - Google login - Dark Mode - Responsive design",
+    "description2": "Web application to access information about countries around the world. The application allows users to explore, filter, and get details about each country.",
+    "features2": "Filters by region and population - Search by name - Unit testing with Cypress",
+    "projectLink": "Project Link",
+    "features": "Features"
 }}
