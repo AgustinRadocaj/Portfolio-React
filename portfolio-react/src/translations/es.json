@@ -1,0 +1,13 @@
+{ "translation": {
+      "experiencia": "Experiencia",
+      "proyectos": "Proyectos",
+      "contacto": "Contacto",
+      "language": {
+        "spanish": "Español",
+        "english": "Inglés"
+      },
+      "infoTitle": "Sobre mi",
+      "infoText": "¡Hola! Soy Agustín Radocaj, un desarrollador Fullstack apasionado por la tecnología y la innovación. Mi objetivo es crear aplicaciones eficientes y fáciles de usar, priorizando siempre una experiencia de usuario intuitivay fluida. Me encanta aprender constantemente para mejorar como programador y siempre estoy buscando nuevos retos para crecer tanto personal como profesionalmente.",
+      "infoLanguage": "Ingles C2 Avanzado",
+      "CV": "Descargar CV"
+}}
