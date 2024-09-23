@@ -9,5 +9,9 @@
     "infoTitle": "About me",
     "infoText": "Hi! I'm Agustín Radocaj, a Fullstack developer passionate about technology and innovation. My goal is to create efficient and user-friendly applications, always prioritizing an intuitive and smooth user experience. I love constantly learning to improve as a programmer and I´m always seeking new challenges to grow both personally and professionally.",
     "infoLanguage": "English C2 Advanced",
-    "CV": "Download CV"
+    "CV": "Download CV",
+    "experienciaTitle": "Experiencie",
+    "job": "Fullstack Developer",
+    "jobDescription": "Design and development of web applications for the legal sector in internal company projects and client projects. Management of databases in PostgreSQL and integration of the company's social media APIs, using tools such as React, Node, and Bubble.io."
+
 }}
