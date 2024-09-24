@@ -5,7 +5,7 @@ import styles from './Switcher.module.css'
 
 
 export const Switcher = ({ t }) => {
-  const [isSpanish, setIsSpanish] = useState(false);
+  const [isSpanish, setIsSpanish] = useState(true);
 
   const toggleLanguage = () => {
     const newLanguage = isSpanish ? 'en' : 'es';
